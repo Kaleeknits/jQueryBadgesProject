@@ -9,6 +9,15 @@
 </head>
 <body>
 
+  <script>
+    $.ajax({
+      url: 'https://www.codeschool.com/users/kadogamer',
+      dataType: 'jsonp',
+      success: function(response) {
+        // handle response
+      }
+    });
+  </script>
   <div class="container">
     <h1>jQuery Badges</h1>
     <div id="badges"></div>
